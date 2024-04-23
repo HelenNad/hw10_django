@@ -1,0 +1,12 @@
+{% extends 'quotes/base.html' %}
+{% load extract %}
+
+
+{% block content %}
+<div class="container mt-3">
+     {% for a in auth %}
+          {{a}}
+     {%endfor%}
+
+</div>
+{% endblock %}
